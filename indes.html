@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imóveis Prime | Seu novo lar começa aqui</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <nav class="navegacao">
+      <a href="#" class="logo">◆ IMÓVEIS <span>PRIME</span></a>
+
+      <div class="links">
+        <a href="#inicio">Início</a>
+        <a href="#imoveis">Imóveis</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <a href="#contato" class="nav-botao">Fale conosco</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-conteudo">
+      <span class="destaque">EXCLUSIVIDADE E SOFISTICAÇÃO</span>
+      <h1>O imóvel ideal para sua <em>próxima história.</em></h1>
+      <p>Encontre casas, terrenos e propriedades selecionadas para você realizar seus sonhos.</p>
+      <a href="#imoveis" class="botao-principal">Explorar imóveis →</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="secao-imoveis" id="imoveis">
+      <div class="secao-topo">
+        <div>
+          <span class="subtitulo">NOSSA SELEÇÃO</span>
+          <h2>Imóveis em destaque</h2>
+          <p>Encontre a oportunidade perfeita para você.</p>
+        </div>
+      </div>
+
+      <div class="filtros">
+        <input type="search" id="pesquisa"
+          placeholder="Pesquisar por cidade ou imóvel...">
+
+        <select id="tipo">
+          <option value="todos">Todos os imóveis</option>
+          <option value="casa">Casas</option>
+          <option value="terreno">Terrenos</option>
+          <option value="fazenda">Fazendas</option>
+        </select>
+      </div>
+
+      <div class="grade-imoveis" id="lista-imoveis"></div>
+      <p id="sem-resultados" hidden>Nenhum imóvel encontrado.</p>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <span class="subtitulo">QUEM SOMOS</span>
+      <h2>Seu sonho merece o melhor lugar.</h2>
+      <p>Na Imóveis Prime, nosso objetivo é conectar pessoas a imóveis que combinam com seus planos e seu estilo de vida.</p>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2>Vamos encontrar seu próximo imóvel?</h2>
+      <p>Entre em contato e conheça nossas oportunidades.</p>
+      <a id="whatsapp-contato" href="#" target="_blank"
+         rel="noopener noreferrer" class="botao-principal">
+        Conversar pelo WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Imóveis Prime. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
